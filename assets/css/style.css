@@ -51,7 +51,7 @@ p {
     height: 200px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url('header\ for\ site.jpg');
+    background-image: url('../images/headerimage.png');
     background-size: cover;
     background-position: center;
 }
