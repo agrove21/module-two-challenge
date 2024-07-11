@@ -6,7 +6,7 @@
 }
 /* element Selectors */
 body {
-    background-color: white;
+    background-color: #584f69;
 }
 /* class Selectors */
 .header {
@@ -44,7 +44,9 @@ a{
 }
 
 p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
+    color: #FFFFFF;
 }
 
 .hero {
@@ -55,10 +57,14 @@ p {
     background-size: cover;
     background-position: center;
 }
-.container {
+#about-me {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+.about-me-container {
     display: flex;
 }
-
 
 
 /* Tablets - header changes color */
