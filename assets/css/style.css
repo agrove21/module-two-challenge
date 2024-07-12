@@ -62,9 +62,6 @@ p {
 }
 .content {
   width: 80%;
-  /* marging: top right bottom left 
-    margin: top-bottom left-right;
-    */
   margin: 0 auto;
 }
 .left {
@@ -73,7 +70,7 @@ p {
   color: #584f69;
 }
 .headings {
-  font-size: 60px;
+    font-size: 60px;
   color: whitesmoke;
 }
 
@@ -93,7 +90,7 @@ p {
 #about-me {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  font-size: 32px;
+  /* font-size: 32px; */
   color: #ffffff;
 }
 #about-me-container {
@@ -179,8 +176,8 @@ p {
 /* Tablets - header changes color */
 @media screen and (max-width: 992px) {
   nav {
-    background: #772014;
-    /* flex-direction: column; */
+    /* background: #772014; */
+    /* flex-direction:wrap; */
   }
 }
 
@@ -196,5 +193,5 @@ p {
 @media screen and (max-width: 576px) {
   header {
     height: 115px;
+      }
   }
-}
