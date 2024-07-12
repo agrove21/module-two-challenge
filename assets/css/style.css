@@ -46,8 +46,9 @@ a {
 }
 
 p {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 18px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 24px;
   color: #ffffff;
 }
 
@@ -75,6 +76,19 @@ p {
   font-size: 60px;
   color: whitesmoke;
 }
+
+.subtitles {
+  font-size: 40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: whitesmoke;
+}
+.description {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: whitesmoke;
+  padding-bottom: 15px;
+}
 /*About Me section*/
 #about-me {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -92,7 +106,7 @@ p {
 }
 
 .about-me-right {
-  padding-left: 30px;
+  padding-left: 20px;
   width: 70%;
 }
 /* Work Section */
@@ -115,7 +129,7 @@ p {
   display: flex;
   flex-direction: column;
   padding-top: 20px;
-  padding-left: 20px;
+  /* padding-left: 20px; */
   width: 70%;
 }
 
@@ -133,7 +147,7 @@ p {
   display: flex;
   flex-direction: column;
   padding-top: 20px;
-  padding-left: 20px;
+  /* padding-left: 20px; */
   width: 70%;
 }
 .third-row-column2 {
@@ -146,22 +160,21 @@ p {
 
 /* contact Me*/
 #contact-me {
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-    font-size: 32px;
-    color: #ffffff;
+  font-size: 32px;
+  color: #ffffff;
 }
 #contact-me-container {
   display: flex;
   padding-bottom: 20px;
 }
 .contact-me-right {
-    font-size: 20px;
-    padding-left: 20px;
-    width: 70%;
-    margin-left: 10px;
-  }
-  
+  font-size: 20px;
+  padding-left: 20px;
+  width: 70%;
+  /* margin-left: 10px; */
+}
 
 /* Tablets - header changes color */
 @media screen and (max-width: 992px) {
@@ -176,17 +189,12 @@ p {
   header {
     height: 115px;
   }
-  nav {
-    background-color: #bb8588;
-  }
+  
 }
 
 /* Small smartphones - image placeholders change color */
 @media screen and (max-width: 576px) {
   header {
     height: 115px;
-  }
-  nav {
-    background-color: #8ac4ff;
   }
 }
