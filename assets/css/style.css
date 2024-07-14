@@ -4,15 +4,17 @@
   padding: 0;
   margin: 0;
 }
+
 /* element Selectors */
 body {
   background-color: #584f69;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
+
 /* class Selectors */
 .header {
   padding: 20px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
   background-color: white;
   color: #584f69;
 }
@@ -23,14 +25,13 @@ body {
   text-align: right;
 }
 
+/* Navigation */
 .header nav {
-  /* padding-top: 15px; */
-  /* margin-right: 20px; */
   float: right;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 32px;
 }
-/* Navigation */
+
 .header nav ul {
   list-style-type: none;
 }
@@ -38,6 +39,7 @@ body {
 .header nav ul li {
   display: inline-block;
   margin-left: 25px;
+  padding-right: 20;
   text-decoration: none;
 }
 
@@ -46,10 +48,8 @@ a {
 }
 
 p {
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
   font-size: 24px;
-  color: #ffffff;
+  color: whitesmoke;
 }
 
 .hero {
@@ -61,116 +61,90 @@ p {
   background-position: center;
 }
 .content {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
+
 .left {
   border-right: 10px #fad6a5 solid;
   width: 30%;
   color: #584f69;
 }
+
 .headings {
-    font-size: 60px;
+  font-size: 60px;
   color: whitesmoke;
 }
 
 .subtitles {
   font-size: 40px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
   color: whitesmoke;
 }
+
 .description {
   font-size: 20px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: whitesmoke;
   padding-bottom: 15px;
 }
+
 /*About Me section*/
-#about-me {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  /* font-size: 32px; */
-  color: #ffffff;
-}
 #about-me-container {
   display: flex;
   padding-bottom: 20px;
-}
-
-.about-me-right p {
-  font-size: 20px;
 }
 
 .about-me-right {
   padding-left: 20px;
   width: 70%;
 }
+
+.about-me-right p {
+  font-size: 24px;
+}
+
 /* Work Section */
 #work-container {
   display: flex;
   padding-bottom: 40px;
 }
+
 .work-right {
   display: flex;
   flex-direction: column;
   padding-left: 20px;
   width: 70%;
-  color: #ffffff;
+  color: whitesmoke;
 }
 
-.second-row {
-  display: flex;
-}
-.second-row-column1 {
-  display: flex;
-  flex-direction: column;
-  padding-top: 20px;
-  /* padding-left: 20px; */
-  width: 70%;
-}
-
-.second-row-column2 {
-  display: flex;
-  flex-direction: column;
-  padding-top: 20px;
-  padding-left: 20px;
-  width: 70%;
-}
+.second-row,
 .third-row {
   display: flex;
 }
-.third-row-column1 {
-  display: flex;
-  flex-direction: column;
-  padding-top: 20px;
-  /* padding-left: 20px; */
-  width: 70%;
-}
+
+.second-row-column1,
+.second-row-column2,
+.third-row-column1,
 .third-row-column2 {
   display: flex;
   flex-direction: column;
   padding-top: 20px;
+}
+
+.second-row-column2,
+.third-row-column2 {
   padding-left: 20px;
-  width: 70%;
 }
 
 /* contact Me*/
-#contact-me {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  font-size: 32px;
-  color: #ffffff;
-}
 #contact-me-container {
   display: flex;
   padding-bottom: 20px;
 }
+
 .contact-me-right {
   font-size: 20px;
   padding-left: 20px;
   width: 70%;
-  /* margin-left: 10px; */
 }
 
 /* Tablets - header changes color */
@@ -184,14 +158,13 @@ p {
 /* Large smartphones - navbar changes color */
 @media screen and (max-width: 768px) {
   header {
-    height: 115px;
+    height: auto;
   }
-  
 }
 
 /* Small smartphones - image placeholders change color */
 @media screen and (max-width: 576px) {
-  header {
-    height: 115px;
-      }
+  .header {
+    height: auto;
+    text-align: center;
   }
