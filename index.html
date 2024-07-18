@@ -4,16 +4,20 @@
     <title>Ann Hargrove Portfolio</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
 
   <body>
-    <div class="page-wrapper">
-      <header class="header">
+    <header class="header">
+      <div class="wrapper">
         <div>
           <img src="assets/images/annsmall.png" alt="Ann Portfolio" />
           <h1>Ann Hargrove</h1>
         </div>
+        <span class="menu-icon">
+          <i class="fa-solid fa-bars"></i>
+        </span>
         <nav>
           <ul>
             <li><a href="#about-me-container">About Me</a></li>
@@ -22,101 +26,113 @@
             <li><a href="resume.html">Resume</a></li>
           </ul>
         </nav>
-      </header>
-      <div class="hero">
+      </div>
+    </header>
+    <div class="hero">
+      <div class="wrapper">
         <h2>Full Stack Developer</h2>
       </div>
-      <main class="content">
-        <div id="about-me-container" class="row">
-          <div class="about-me-left left">
-            <h2 class="headings">About Me</h2>
-          </div>
-          <div class="about-me-right right">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-              totam corporis laborum! Laborum, nisi! Blanditiis exercitationem
-              eligendi at molestiae debitis amet quia assumenda tenetur tempora,
-              deserunt recusandae dolorem facilis saepe.
-            </p>
-            <br />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-              totam corporis laborum! Laborum, nisi! Blanditiis exercitationem
-              eligendi at molestiae debitis amet quia assumenda tenetur tempora,
-              deserunt recusandae dolorem facilis saepe.
-            </p>
-          </div>
+    </div>
+    <main class="content wrapper">
+      <div id="about-me-container" class="row">
+        <div class="about-me-left left">
+          <h2 class="headings">About Me</h2>
         </div>
-        <div id="work-container" class="row">
-          <div class="work-left left">
-            <h2 class="headings">Work</h2>
-          </div>
-          <div class="work-right right">
-            <div class="first-row">
-              <div class="first-row-text">
-                <h3 class="subtitles">Surf Report</h3>
-                <p class="description">MERN Stack</p>
-              </div>
-              <a href="https://google.com/">
-                <img
-                  src="./assets/images/surfreport.jpg"
-                  alt="placeholder"
-                  width="800"
-                />
-              </a>
+        <div class="about-me-right right">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae totam
+            corporis laborum! Laborum, nisi! Blanditiis exercitationem eligendi
+            at molestiae debitis amet quia assumenda tenetur tempora, deserunt
+            recusandae dolorem facilis saepe.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae totam
+            corporis laborum! Laborum, nisi! Blanditiis exercitationem eligendi
+            at molestiae debitis amet quia assumenda tenetur tempora, deserunt
+            recusandae dolorem facilis saepe.
+          </p>
+        </div>
+      </div>
+      <div id="work-container" class="row">
+        <div class="work-left left">
+          <h2 class="headings">Work</h2>
+        </div>
+        <div class="work-right right">
+          <div class="first-row">
+            <div class="first-row-text">
+              <h3 class="subtitles">Surf Report</h3>
+              <p class="description">MERN Stack</p>
             </div>
+            <a
+              href="https://google.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="./assets/images/surfreport.jpg"
+                alt="placeholder"
+                width="800"
+              />
+            </a>
+          </div>
 
-            <div class="second-row">
-              <div class="second-row-column1">
+          <div class="second-row">
+            <div class="project-item">
+              <div class="project-item-title">
                 <h3 class="subtitles">LED Wall</h3>
                 <p class="description">Node/loT</p>
-                <img
-                  src="assets/images/ledwall.jpg"
-                  alt="placeholder"
-                  height="200"
-                />
               </div>
-              <div class="second-row-column2">
+              <img
+                src="assets/images/ledwall.jpg"
+                alt="placeholder"
+              />
+            </div>
+            <div class="project-item">
+              <div class="project-item-title">
                 <h3 class="subtitles">Calculator</h3>
                 <p class="description">React/JavaScript/CSS</p>
-                <img
-                  src="assets/images/calculator.jpg"
-                  alt="placeholder"
-                  height="200"
-                />
               </div>
+              <img
+                src="assets/images/calculator.jpg"
+                alt="placeholder"
+              />
             </div>
-            <div class="third-row">
-              <div class="third-row-column1">
+            <div class="project-item">
+              <div class="project-item-title">
                 <h3 class="subtitles">Pastel Puzzels</h3>
                 <p class="description">MERN Stack</p>
-                <img
-                  src="assets/images/pastelpuzzels.jpg"
-                  alt="placeholder"
-                  height="200"
-                />
               </div>
-              <div class="third-row-column2">
+              <img
+                src="assets/images/pastelpuzzels.jpg"
+                alt="placeholder"
+              />
+            </div>
+            <div class="project-item">
+              <div class="project-item-title">
                 <h3 class="subtitles">Run Buddy</h3>
                 <p class="description">HTML/CSS</p>
-                <img
-                  src="assets/images/runbuddy.jpg"
-                  alt="placeholder"
-                  height="200"
-                />
               </div>
+              <img
+                src="assets/images/runbuddy.jpg"
+                alt="placeholder"
+              />
             </div>
           </div>
         </div>
-        <div id="contact-me-container">
-          <div class="contact-me-left left">
-            <h2 class="headings">Contact Me</h2>
-          </div>
-          <div class="contact-me-right">
-            <h3 class="subtitles">annhargrove21@gmail.com</h3>
-          </div>
+      </div>
+      <div id="contact-me-container">
+        <div class="contact-me-left left">
+          <h2 class="headings">Contact Me</h2>
         </div>
-      </main>
-    </div>
+        <div class="contact-me-right right">
+          <h3>
+            <a class="subtitles" href="mailto:annhargrove21@gmail.com"
+              >annhargrove21@gmail.com</a
+            >
+          </h3>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
