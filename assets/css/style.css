@@ -193,13 +193,16 @@ p {
 #contact-me-container {
   display: flex;
   padding-bottom: 20px;
+  align-items: center;
   gap: 10px;
 }
 
 .contact-me-right {
+  display: flex;
+  justify-content: flex-start;
+  gap: 50px;
   font-size: 20px;
   padding-left: 20px;
-  /* width: 400px; */
 }
 
 /* Tablets - header changes color */
@@ -208,21 +211,63 @@ p {
     display: block;
   }
   .header nav {
+    display: none;
     font-size: 20px;
+    position: absolute;
+    min-width: 250px;
+    top: 113px;
+    z-index: 10;
+    right: 0;
+    background-color: white;
+  }
+
+  .header .show {
+    display: block;
+  }
+
+  .header ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    align-items: flex-end;
+  }
+
+  .content {
+    padding-left: 0;
+  }
+
+  .headings {
+    font-size: 50px;
+    text-align: right;
+    padding-right: 15px;
+    padding-left: 10px;
   }
 }
 
 /* Large smartphones - navbar changes color */
 @media screen and (max-width: 768px) {
-  header {
-    height: auto;
+  .row {
+    flex-wrap: wrap;
+  }
+  .left, .right {
+    width: 100%;
+    padding: 0 8px;
+  }
+
+  .project-item {
+    width: 100%;
+  }
+
+  .contact-me-right {
+    justify-content: center;
+    padding-top: 20px;
   }
 }
 
 /* Small smartphones - image placeholders change color */
 @media screen and (max-width: 576px) {
-  .header {
-    height: auto;
-    text-align: center;
+  .header h1 {
+    font-size: 25px;
   }
 }

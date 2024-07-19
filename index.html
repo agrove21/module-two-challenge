@@ -4,7 +4,13 @@
     <title>Ann Hargrove Portfolio</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
 
@@ -83,56 +89,53 @@
                 <h3 class="subtitles">LED Wall</h3>
                 <p class="description">Node/loT</p>
               </div>
-              <img
-                src="assets/images/ledwall.jpg"
-                alt="placeholder"
-              />
+              <img src="assets/images/ledwall.jpg" alt="placeholder" />
             </div>
             <div class="project-item">
               <div class="project-item-title">
                 <h3 class="subtitles">Calculator</h3>
                 <p class="description">React/JavaScript/CSS</p>
               </div>
-              <img
-                src="assets/images/calculator.jpg"
-                alt="placeholder"
-              />
+              <img src="assets/images/calculator.jpg" alt="placeholder" />
             </div>
             <div class="project-item">
               <div class="project-item-title">
                 <h3 class="subtitles">Pastel Puzzels</h3>
                 <p class="description">MERN Stack</p>
               </div>
-              <img
-                src="assets/images/pastelpuzzels.jpg"
-                alt="placeholder"
-              />
+              <img src="assets/images/pastelpuzzels.jpg" alt="placeholder" />
             </div>
             <div class="project-item">
               <div class="project-item-title">
                 <h3 class="subtitles">Run Buddy</h3>
                 <p class="description">HTML/CSS</p>
               </div>
-              <img
-                src="assets/images/runbuddy.jpg"
-                alt="placeholder"
-              />
+              <img src="assets/images/runbuddy.jpg" alt="placeholder" />
             </div>
           </div>
         </div>
       </div>
-      <div id="contact-me-container">
+      <div id="contact-me-container" class="row">
         <div class="contact-me-left left">
           <h2 class="headings">Contact Me</h2>
         </div>
         <div class="contact-me-right right">
-          <h3>
-            <a class="subtitles" href="mailto:annhargrove21@gmail.com"
-              >annhargrove21@gmail.com</a
-            >
-          </h3>
+          <a class="subtitles" href="mailto:annhargrove21@gmail.com"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
+          <a class="subtitles" href="https://www.linkedin.com/in/ann-hargrove" target="_blank" rel="noopener noreferrer"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a class="subtitles" href="https://https://github.com/agrove21" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github-alt"></i></a>
         </div>
       </div>
     </main>
+
+    <script>
+      document.querySelector('.menu-icon').addEventListener('click', function(){
+        const nav = document.querySelector('nav');
+        nav.classList.toggle('show')
+      })
+    </script>
   </body>
 </html>
