@@ -15,4 +15,4 @@ https://agrove21.github.io/module-two-challenge/
 
 
 ## Screenshot
-<img src="assets/images/127.0.0.1_5500_index.html.png" width="800px">
+<img src="assets/images/agrove21.github.io_module-two-challenge_ (2).png" width="800px">
