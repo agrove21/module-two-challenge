@@ -10,6 +10,8 @@ I created a personal portfolio website from scratch. The purpose of the site is 
 
 Also, I learned about flexboxes, media queries, and CSS variables.
 
+CODE SOURCE NOTE: I worked with a tutor on this assignment.
+
 ## Deployed Website Link
 https://agrove21.github.io/module-two-challenge/
 
